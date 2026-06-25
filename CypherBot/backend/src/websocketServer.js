@@ -3,7 +3,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const initWebSocketServer = (db) => {
     const wss = new WebSocket.Server({ port: 3001 });
-    console.log('Server WebSocket siap di port 3001');
+    console.log('server WS ready di port 3001');
 
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
