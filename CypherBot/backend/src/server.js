@@ -63,7 +63,7 @@ app.get('/api/messages/:sessionId', (req, res) => {
 });
 
 app.listen(5000, () => {
-    console.log('Server Express berjalan di http://localhost:5000');
+    console.log('server express sedang/lgi running di http://localhost:5000');
 });
 
 initWebSocketServer(db);
