@@ -3,6 +3,9 @@ echo ===================================================
 echo  Start/Run CypherBot...
 echo ===================================================
 
+echo Masuk main foldernya...
+cd CypherBot
+
 echo 1. Instal module backend...
 cd backend
 call npm install
